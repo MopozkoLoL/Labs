@@ -2,7 +2,7 @@ package sorters;
 
 public class QuickSort implements SorterArr {
 
-    public static void sort(int[] array, int low, int high) {
+    public void sort(int[] array, int low, int high) {
         if (array.length == 0)
             return;
 

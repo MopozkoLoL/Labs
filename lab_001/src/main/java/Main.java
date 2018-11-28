@@ -17,6 +17,7 @@ public class Main {
                 put("SortDown", new BubbleSortDown());
                 put("ArraySort", new ArraysSort());
                 put("QuickSort", new QuickSort());
+                put("MergeSort", new MergeSort());
             }
         };
         Map<String, Filler> fillers = new HashMap<>() {
@@ -27,7 +28,7 @@ public class Main {
                 put("SortedArrayWithX", new SortedArrWithX());
             }
         };
-        int elementsCount = 1000;
+        int elementsCount = 10000;
 
 
         for (Map.Entry<String, SorterArr> sorter : sorters.entrySet()) {
