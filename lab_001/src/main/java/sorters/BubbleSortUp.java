@@ -1,6 +1,6 @@
 package sorters;
 
-public class BubbleSortUp implements SorterArr {
+public class BubbleSortUp extends AbstractSorter {
 
     public void sort(int[] arr){
         for (int i = arr.length-1; i >0 ; i--) {

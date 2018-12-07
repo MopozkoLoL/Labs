@@ -1,10 +1,10 @@
 package analyzer;
 
-import sorters.SorterArr;
+import sorters.AbstractSorter;
 
 public class Analyzer {
 
-    public long measureSortTime(int[] arr, SorterArr sorter){
+    public long measureSortTime(int[] arr, AbstractSorter sorter){
         long start = System.nanoTime();
         sorter.sort(arr);
         long ellapsedNanoSeconds = System.nanoTime() - start;

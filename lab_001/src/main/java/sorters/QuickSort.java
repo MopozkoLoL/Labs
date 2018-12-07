@@ -1,6 +1,6 @@
 package sorters;
 
-public class QuickSort implements SorterArr {
+public class QuickSort extends AbstractSorter {
 
     public void sort(int[] array, int low, int high) {
         if (array.length == 0)
